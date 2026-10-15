@@ -1,0 +1,80 @@
+1.Print Hello world
+
+print("Hello, World!")
+print("Welcome to Swift Programming")
+
+2.Display your details
+
+print("Name: Abinayasri")
+print("Department: CSE")
+print("College: Karpagam Institute of Technology")
+print("Language: Swift")
+
+3.Add two numbers
+
+let a = 10
+let b = 20
+let sum = a + b
+print("Sum =", sum)
+
+4.Get user input and and numbers
+
+print("Enter first number:")
+let a = Int(readLine()!)!
+print("Enter second number:")
+let b = Int(readLine()!)!
+print("Sum =", a + b)
+
+5.Check even or odd
+
+let number = 7
+if number % 2 == 0 {
+    print("Even Number")
+} else {
+    print("Odd Number")
+}
+
+6.Find the largest of two numbers
+
+let a = 25
+let b = 15
+if a > b {
+    print("Largest number is", a)
+} else {
+    print("Largest number is", b)
+}
+
+7.Prime number from 1 to 10
+
+for i in 1...10 {
+    print(i)
+}
+
+8.Multiplication
+
+let number = 5
+for i in 1...10 {
+    print("\(number) x \(i) = \(number * i)")
+}
+
+9.Find the sum of first 10 number
+
+var sum = 0
+for i in 1...10 {
+    sum += i
+}
+print("Total sum =", sum)
+
+10.Reverse a string
+
+let word = "Swift"
+let reversed = String(word.reversed())
+print("Original:", word)
+print("Reversed:", reversed)
+
+
+
+
+
+
+
